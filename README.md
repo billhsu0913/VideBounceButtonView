@@ -5,7 +5,7 @@ Vide
 Just for fun and use event handling of iOS for practice. 
 
 ###ScreenShots
-
+![VideBounceButtonView](https://github.com/videgame/VideBounceButtonView/blob/master/VideBounceButtonView.gif)
 
 ###License
 
