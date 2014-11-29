@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B5B4391A298A6B0005FE18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5B4381A298A6B0005FE18 /* AppDelegate.swift */; };
+		06B5B43B1A298A6B0005FE18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5B43A1A298A6B0005FE18 /* ViewController.swift */; };
+		06B5B43E1A298A6B0005FE18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B5B43C1A298A6B0005FE18 /* Main.storyboard */; };
+		06B5B4401A298A6B0005FE18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B5B43F1A298A6B0005FE18 /* Images.xcassets */; };
+		06B5B4431A298A6B0005FE18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B5B4411A298A6B0005FE18 /* LaunchScreen.xib */; };
+		06B5B44F1A298A6B0005FE18 /* VideBounceButtonViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5B44E1A298A6B0005FE18 /* VideBounceButtonViewExampleTests.swift */; };
+		06B5B45A1A298AA30005FE18 /* VideBounceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5B4591A298AA30005FE18 /* VideBounceButtonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06B5B4491A298A6B0005FE18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06B5B42B1A298A6B0005FE18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06B5B4321A298A6B0005FE18;
+			remoteInfo = VideBounceButtonViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B5B4331A298A6B0005FE18 /* VideBounceButtonViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideBounceButtonViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B5B4371A298A6B0005FE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B5B4381A298A6B0005FE18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06B5B43A1A298A6B0005FE18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06B5B43D1A298A6B0005FE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06B5B43F1A298A6B0005FE18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		06B5B4421A298A6B0005FE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		06B5B4481A298A6B0005FE18 /* VideBounceButtonViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideBounceButtonViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B5B44D1A298A6B0005FE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B5B44E1A298A6B0005FE18 /* VideBounceButtonViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideBounceButtonViewExampleTests.swift; sourceTree = "<group>"; };
+		06B5B4591A298AA30005FE18 /* VideBounceButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideBounceButtonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06B5B4301A298A6B0005FE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B5B4451A298A6B0005FE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06B5B42A1A298A6B0005FE18 = {
+			isa = PBXGroup;
+			children = (
+				06B5B4581A298A930005FE18 /* VideBounceButtonView */,
+				06B5B4351A298A6B0005FE18 /* VideBounceButtonViewExample */,
+				06B5B44B1A298A6B0005FE18 /* VideBounceButtonViewExampleTests */,
+				06B5B4341A298A6B0005FE18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06B5B4341A298A6B0005FE18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06B5B4331A298A6B0005FE18 /* VideBounceButtonViewExample.app */,
+				06B5B4481A298A6B0005FE18 /* VideBounceButtonViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06B5B4351A298A6B0005FE18 /* VideBounceButtonViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				06B5B4381A298A6B0005FE18 /* AppDelegate.swift */,
+				06B5B43A1A298A6B0005FE18 /* ViewController.swift */,
+				06B5B43C1A298A6B0005FE18 /* Main.storyboard */,
+				06B5B43F1A298A6B0005FE18 /* Images.xcassets */,
+				06B5B4411A298A6B0005FE18 /* LaunchScreen.xib */,
+				06B5B4361A298A6B0005FE18 /* Supporting Files */,
+			);
+			path = VideBounceButtonViewExample;
+			sourceTree = "<group>";
+		};
+		06B5B4361A298A6B0005FE18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06B5B4371A298A6B0005FE18 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06B5B44B1A298A6B0005FE18 /* VideBounceButtonViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				06B5B44E1A298A6B0005FE18 /* VideBounceButtonViewExampleTests.swift */,
+				06B5B44C1A298A6B0005FE18 /* Supporting Files */,
+			);
+			path = VideBounceButtonViewExampleTests;
+			sourceTree = "<group>";
+		};
+		06B5B44C1A298A6B0005FE18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06B5B44D1A298A6B0005FE18 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06B5B4581A298A930005FE18 /* VideBounceButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				06B5B4591A298AA30005FE18 /* VideBounceButtonView.swift */,
+			);
+			path = VideBounceButtonView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06B5B4321A298A6B0005FE18 /* VideBounceButtonViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B5B4521A298A6B0005FE18 /* Build configuration list for PBXNativeTarget "VideBounceButtonViewExample" */;
+			buildPhases = (
+				06B5B42F1A298A6B0005FE18 /* Sources */,
+				06B5B4301A298A6B0005FE18 /* Frameworks */,
+				06B5B4311A298A6B0005FE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideBounceButtonViewExample;
+			productName = VideBounceButtonViewExample;
+			productReference = 06B5B4331A298A6B0005FE18 /* VideBounceButtonViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06B5B4471A298A6B0005FE18 /* VideBounceButtonViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B5B4551A298A6B0005FE18 /* Build configuration list for PBXNativeTarget "VideBounceButtonViewExampleTests" */;
+			buildPhases = (
+				06B5B4441A298A6B0005FE18 /* Sources */,
+				06B5B4451A298A6B0005FE18 /* Frameworks */,
+				06B5B4461A298A6B0005FE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06B5B44A1A298A6B0005FE18 /* PBXTargetDependency */,
+			);
+			name = VideBounceButtonViewExampleTests;
+			productName = VideBounceButtonViewExampleTests;
+			productReference = 06B5B4481A298A6B0005FE18 /* VideBounceButtonViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06B5B42B1A298A6B0005FE18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Videgame;
+				TargetAttributes = {
+					06B5B4321A298A6B0005FE18 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					06B5B4471A298A6B0005FE18 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 06B5B4321A298A6B0005FE18;
+					};
+				};
+			};
+			buildConfigurationList = 06B5B42E1A298A6B0005FE18 /* Build configuration list for PBXProject "VideBounceButtonViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06B5B42A1A298A6B0005FE18;
+			productRefGroup = 06B5B4341A298A6B0005FE18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06B5B4321A298A6B0005FE18 /* VideBounceButtonViewExample */,
+				06B5B4471A298A6B0005FE18 /* VideBounceButtonViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06B5B4311A298A6B0005FE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B5B43E1A298A6B0005FE18 /* Main.storyboard in Resources */,
+				06B5B4431A298A6B0005FE18 /* LaunchScreen.xib in Resources */,
+				06B5B4401A298A6B0005FE18 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B5B4461A298A6B0005FE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06B5B42F1A298A6B0005FE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B5B43B1A298A6B0005FE18 /* ViewController.swift in Sources */,
+				06B5B4391A298A6B0005FE18 /* AppDelegate.swift in Sources */,
+				06B5B45A1A298AA30005FE18 /* VideBounceButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B5B4441A298A6B0005FE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B5B44F1A298A6B0005FE18 /* VideBounceButtonViewExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06B5B44A1A298A6B0005FE18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06B5B4321A298A6B0005FE18 /* VideBounceButtonViewExample */;
+			targetProxy = 06B5B4491A298A6B0005FE18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06B5B43C1A298A6B0005FE18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06B5B43D1A298A6B0005FE18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06B5B4411A298A6B0005FE18 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06B5B4421A298A6B0005FE18 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06B5B4501A298A6B0005FE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06B5B4511A298A6B0005FE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06B5B4531A298A6B0005FE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideBounceButtonViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06B5B4541A298A6B0005FE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideBounceButtonViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06B5B4561A298A6B0005FE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VideBounceButtonViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideBounceButtonViewExample.app/VideBounceButtonViewExample";
+			};
+			name = Debug;
+		};
+		06B5B4571A298A6B0005FE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VideBounceButtonViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideBounceButtonViewExample.app/VideBounceButtonViewExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06B5B42E1A298A6B0005FE18 /* Build configuration list for PBXProject "VideBounceButtonViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B5B4501A298A6B0005FE18 /* Debug */,
+				06B5B4511A298A6B0005FE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06B5B4521A298A6B0005FE18 /* Build configuration list for PBXNativeTarget "VideBounceButtonViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B5B4531A298A6B0005FE18 /* Debug */,
+				06B5B4541A298A6B0005FE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06B5B4551A298A6B0005FE18 /* Build configuration list for PBXNativeTarget "VideBounceButtonViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B5B4561A298A6B0005FE18 /* Debug */,
+				06B5B4571A298A6B0005FE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06B5B42B1A298A6B0005FE18 /* Project object */;
+}
